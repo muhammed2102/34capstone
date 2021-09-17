@@ -4,7 +4,7 @@ class Rope {
       bodyA: bodyA,
       pointB: pointB,
       stiffness: 1.2,
-      length: 450,
+      length: 500,
     };
 
     this.pointB = pointB;
@@ -20,7 +20,7 @@ class Rope {
 
       //set the value of stroke to hide the rope
       stroke(48, 22, 8);
-      strokeWeight(4);
+      strokeWeight(0);
 
       line(pointB.x, pointB.y, pointA.x, pointA.y);
 

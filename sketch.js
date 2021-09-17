@@ -90,7 +90,7 @@ function draw() {
 
 function mouseDragged() {
   //set the position of hero when mouse is dragged
-  Matter.Body.setPosition(hero.body, { x: 600, y: 765});
+  Matter.Body.setPosition(hero.body, { x: mouseX, y: mouseY});
 }
 
 
